@@ -18,8 +18,7 @@ void parse(char* argv[])
 
 int main(void)
 {
-    
-    
+   
     if (!file_to_parse.is_open()) { std::cout <<"Error opening file"; }
     else if (file_to_parse.is_open())
     {
