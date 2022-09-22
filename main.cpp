@@ -18,10 +18,10 @@ int main(int argc, char * argv[])
         {
             
             getline(file_to_parse, file_line, ':');
-            file_to_parse >> numbers;file_to_parse.close();
+            file_to_parse >> numbers;
             file_to_write.open(file_name);
-            file_to_write << "{\n" "\t\"Key:\": " << "" << "\"" << file_line << "\"," << "\n" << "\t\"Value:\": " << "\"" << numbers << "\"" << "\n}" << std::endl;
-            file_to_write.close();
+            file_to_write << "{\n" "\t" "" << "" << "\"" << file_line << "\"" <<  ":  " << "\"" << numbers << "\"" << "\n" << "}";
+            file_to_write.close();file_to_parse.close();
     
         }
 
