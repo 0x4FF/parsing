@@ -1,4 +1,4 @@
-**OUTPUT*
+**OUTPUT**
 ```json
 {
   "skid": "0"
